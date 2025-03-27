@@ -1,0 +1,269 @@
+[
+    {
+      "id": "investor_update",
+      "name": "Investor update",
+      "description": "A periodic update for investors on the company's progress.",
+      "category": "Management",
+      "prompt": "You are writing an investor update about the progress of [COMPANY NAME]. You are a CFO or CEO summarizing key financial, operational, and strategic milestones achieved in the last [TIME PERIOD]. Topics to cover include revenue, profitability, recent partnerships, and growth projections. Create an outline that is concise, transparent, and maintains a professional tone."
+    },
+    {
+      "id": "company_update",
+      "name": "Company update",
+      "description": "A detailed update on the overall status of the company for internal or external audiences.",
+      "category": "Management",
+      "prompt": "You are writing a company update to [AUDIENCE] about [COMPANY NAME]'s current progress. As the CEO or senior leader, you will discuss recent product launches, team growth, new market expansions, and key milestones. Structure the outline to balance transparency with optimism, using a professional yet engaging tone."
+    },
+    {
+      "id": "investor_pitch",
+      "name": "Investor pitch",
+      "description": "A persuasive pitch to potential investors highlighting a company's strengths and growth potential.",
+      "category": "Management",
+      "prompt": "You are preparing an investor pitch for [COMPANY NAME], a company specializing in [INDUSTRY]. You are a startup founder explaining the business model, market opportunity, competitive advantage, financial projections, and funding needs. Create an outline that is clear, persuasive, and maintains a confident, visionary tone."
+    },
+    {
+      "id": "discussion_guide",
+      "name": "Discussion guide",
+      "description": "A guide to facilitate structured discussion during user interviews or focus groups.",
+      "category": "Product research",
+      "prompt": "You are creating a discussion guide for a UX research session focused on understanding how users interact with [PRODUCT]. You are a UX researcher, and the goal is to explore user needs, pain points, and preferences. Include key topics like onboarding, navigation, and usability. Structure the outline to keep the conversation open-ended, yet focused."
+    },
+    {
+      "id": "screening_survey",
+      "name": "Screening survey",
+      "description": "A survey to filter potential participants for research or user testing.",
+      "category": "Product research",
+      "prompt": "You are designing a screening survey for recruiting participants for a [RESEARCH STUDY TYPE]. As a product researcher, the goal is to ensure participants match the ideal demographic, behavioral, or usage criteria. Include sections on demographics, technology use, and familiarity with [PRODUCT OR SERVICE]. Provide an outline that is structured and clear."
+    },
+    {
+      "id": "sales_pitch",
+      "name": "Sales pitch",
+      "description": "A persuasive pitch to sell a product or service.",
+      "category": "Sales",
+      "prompt": "You are writing a sales pitch to convince [POTENTIAL CLIENT] to purchase [PRODUCT OR SERVICE]. You are a sales representative highlighting key benefits, solving client pain points, and explaining ROI. Include an introduction, product overview, key differentiators, and a call to action. The tone should be persuasive, confident, and customer-focused."
+    },
+    {
+      "id": "cold_email",
+      "name": "Cold email",
+      "description": "An outreach email to introduce a product or service to potential customers.",
+      "category": "Sales",
+      "prompt": "You are writing a cold email to introduce [PRODUCT OR SERVICE] to [POTENTIAL CLIENT]. As a sales representative, craft a message that quickly grabs attention, explains the value proposition, and encourages a follow-up. Topics should include the client’s pain points, your solution, and a clear call to action. Keep the tone friendly, concise, and professional."
+    },
+    {
+      "id": "partnership_proposal",
+      "name": "Partnership proposal",
+      "description": "A proposal to establish a business partnership with another company.",
+      "category": "Business development",
+      "prompt": "You are drafting a partnership proposal to [PARTNER COMPANY] to collaborate on [PROJECT OR BUSINESS AREA]. As a business development lead, outline the mutual benefits, synergy between companies, and the specific terms of the partnership. The outline should be professional, focused on value creation, and include an introduction, partnership details, and a call to action."
+    },
+    {
+      "id": "landing_page_copy",
+      "name": "Landing page copy",
+      "description": "Content for a landing page designed to convert visitors into leads or customers.",
+      "category": "Marketing",
+      "prompt": "You are writing landing page copy for [PRODUCT OR SERVICE]. As a marketing copywriter, your goal is to grab attention, explain the value proposition, and encourage conversions. Include sections like a catchy headline, product benefits, testimonials, and a call to action. The tone should be engaging, persuasive, and clear."
+    },
+    {
+      "id": "blog_post",
+      "name": "Personal blog post",
+      "description": "A written piece to inform or entertain readers on a specific topic.",
+      "category": "Marketing",
+      "prompt": "You are writing a blog post about [TOPIC] for a [TARGET AUDIENCE]. As an expert in this field, provide insights, tips, or commentary on this subject. Include an introduction, key points or subtopics, and a conclusion. Structure the outline to be informative and engaging, and the tone should be approachable yet authoritative."
+    },
+    {
+      "id": "seo_post",
+      "name": "SEO blog post",
+      "description": "A blog post optimized for search engines to increase organic traffic.",
+      "category": "Marketing",
+      "prompt": "You are writing an SEO post targeting the following keywords: [KEYWORDS]. As a content marketer, provide valuable information around [TOPIC] while naturally incorporating relevant keywords. Include an introduction, sections around key subtopics, and a conclusion. Structure the outline for readability and SEO optimization, using a clear and engaging tone."
+    },
+    {
+      "id": "podcast_script",
+      "name": "Podcast/video script",
+      "description": "A script for a podcast or video discussing a specific topic or product.",
+      "category": "Marketing",
+      "prompt": "You are creating a script for a podcast or video about [TOPIC]. As the content creator, your goal is to educate or entertain the audience while covering key points such as [MAIN TOPICS]. Include an introduction, discussion points, and a closing. The tone should be conversational, engaging, and suited to the medium."
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter",
+      "description": "A periodic email update for subscribers with curated content or company news.",
+      "category": "Marketing",
+      "prompt": "You are writing a newsletter for [COMPANY] to send to its subscribers. As a content marketer, include updates on [PRODUCT OR TOPIC], upcoming events, and valuable resources. Structure the outline with sections like a greeting, main content, and a call to action. The tone should be friendly, informative, and aligned with the brand voice."
+    },
+    {
+      "id": "linkedin_post",
+      "name": "LinkedIn post",
+      "description": "A professional post sharing news or updates relevant to your industry.",
+      "category": "Social media",
+      "prompt": "You are writing a LinkedIn post about [NEWS TOPIC] in [INDUSTRY]. As a professional in this field, write a post that highlights the key news, its relevance to the industry, and its implications for professionals and businesses. Cover why this is important, what trends it reflects, and what the audience can take away from it. Conclude with a call to engage, such as inviting the audience to share their thoughts or comment. Maintain a professional and approachable tone."
+    },
+    {
+      "id": "linkedin_career_update",
+      "name": "LinkedIn career update",
+      "description": "A post announcing a career milestone or transition.",
+      "category": "Social media",
+      "prompt": "You are writing a LinkedIn post announcing your [CAREER UPDATE, e.g., new job, promotion, or project]. Write a professional and authentic update that explains your new role or achievement, why this is meaningful to you, and how it aligns with your career goals. Include a brief reflection on what you’ve learned or what excites you about this opportunity. Close by thanking those who supported you or inviting your network to connect for collaboration. Keep the tone professional and enthusiastic."
+    },
+    {
+      "id": "linkedin_product_launch",
+      "name": "LinkedIn product launch",
+      "description": "A professional announcement about a new product or service launch.",
+      "category": "Social media",
+      "prompt": "You are writing a LinkedIn post announcing the launch of [PRODUCT/SERVICE NAME]. As a member of [COMPANY/TEAM], write a post that introduces the product, highlights its key features or benefits, and explains how it solves a problem or serves a need for your audience. Include a brief call to action, such as visiting a link, signing up for a demo, or leaving a comment. Maintain a professional and engaging tone."
+    },
+    {
+      "id": "twitter_how_to_guide",
+      "name": "X how-to guide thread",
+      "description": "A Twitter thread offering step-by-step guidance on a specific topic.",
+      "category": "Social media",
+      "prompt": "You are writing a Twitter thread about how to [ACHIEVE A SPECIFIC GOAL]. As an expert in [TOPIC], provide concise, actionable steps for readers to follow, with each tweet in the thread covering one clear step or tip. Include any necessary context or background, and ensure the steps are practical and easy to understand. Close the thread with a summary or invitation to ask questions. Keep the tone casual, engaging, and on-brand."
+    },
+    {
+      "id": "twitter_product_launch",
+      "name": "X product launch thread",
+      "description": "A Twitter thread announcing and promoting a product or service launch.",
+      "category": "Social media",
+      "prompt": "You are writing a Twitter thread announcing the launch of [PRODUCT/SERVICE NAME]. As a representative of [COMPANY/TEAM], craft an engaging thread that starts with a hook to grab attention, introduces the product, and highlights its key benefits or unique features. Each tweet should build on the last, explaining why the product matters and how it solves a problem for your audience. End with a clear call to action, such as visiting a link, signing up, or commenting. Maintain a casual and enthusiastic tone."
+    },
+    {
+      "id": "press_release",
+      "name": "Press release",
+      "description": "A formal announcement shared with the media about a significant event or update.",
+      "category": "Communications",
+      "prompt": "You are writing a press release to announce [EVENT OR NEWS] for [COMPANY]. As the communications lead, cover the key facts, quotes from leadership, and the broader significance of the news. Structure the outline with a headline, introduction, body, and conclusion. The tone should be formal, concise, and professional."
+    },
+    {
+      "id": "product_announcement",
+      "name": "Product announcement",
+      "description": "A formal communication announcing the release of a new product.",
+      "category": "Communications",
+      "prompt": "You are writing a product announcement for [PRODUCT NAME], a [PRODUCT DESCRIPTION]. As a product marketing manager, explain the product's features, benefits, and release details. Include a headline, introduction, key features, and a call to action. The tone should be exciting, clear, and professional."
+    },
+    {
+      "id": "business_announcement",
+      "name": "Business announcement",
+      "description": "A formal communication to announce a significant change or update in the business.",
+      "category": "Communications",
+      "prompt": "You are writing a business announcement to inform [STAKEHOLDERS] about [SIGNIFICANT BUSINESS UPDATE]. As the CEO or communications lead, cover the details, reasons, and impact of the change. Include an introduction, main details, and a closing statement. The tone should be formal, informative, and reassuring."
+    },
+    {
+      "id": "employee_handbook",
+      "name": "Employee handbook",
+      "description": "A document outlining company policies and employee expectations.",
+      "category": "Human resources",
+      "prompt": "You are drafting an employee handbook for [COMPANY NAME]. As the HR manager, include sections on company values, policies, code of conduct, and employee benefits. Structure the outline with clear sections and headings. The tone should be professional, clear, and supportive."
+    },
+    {
+      "id": "job_description",
+      "name": "Job description",
+      "description": "A detailed description of a job opening for potential candidates.",
+      "category": "Human resources",
+      "prompt": "You are writing a job description for the role of [JOB TITLE] at [COMPANY]. As the hiring manager, include details like responsibilities, required qualifications, and company culture. Structure the outline with a job title, overview, duties, qualifications, and how to apply. The tone should be clear, professional, and attractive to candidates."
+    },
+    {
+      "id": "motivational_letter",
+      "name": "Motivational letter",
+      "description": "A letter to inspire or encourage an employee or team.",
+      "category": "Human resources",
+      "prompt": "You are writing a motivational letter to [RECIPIENT OR TEAM] at [COMPANY]. As a manager or team leader, encourage them by acknowledging recent achievements and setting a positive tone for upcoming challenges. Include a warm greeting, key message of motivation, and a closing. The tone should be supportive, positive, and inspiring."
+    },
+    {
+      "id": "recommendation_letter",
+      "name": "Recommendation letter",
+      "description": "A letter recommending an individual for a job or academic opportunity.",
+      "category": "Human resources",
+      "prompt": "You are writing a recommendation letter for [CANDIDATE] for the position of [JOB TITLE] at [COMPANY]. As [CANDIDATE]'s former manager or colleague, provide examples of their skills, work ethic, and achievements. Structure the outline with an introduction, specific examples, and a strong endorsement. The tone should be formal, supportive, and sincere."
+    },
+    {
+      "id": "api_documentation",
+      "name": "API documentation",
+      "description": "Technical documentation that explains how to use an API.",
+      "category": "Engineering",
+      "prompt": "You are writing API documentation for [API NAME]. As a software engineer, cover the API's purpose, key endpoints, authentication, and usage examples. Include sections like introduction, getting started, methods/endpoints, and error handling. The tone should be clear, technical, and instructional."
+    },
+    {
+      "id": "privacy_policy",
+      "name": "Privacy policy",
+      "description": "A legal document explaining how a company collects, uses, and protects user data.",
+      "category": "Legal",
+      "prompt": "You are writing a privacy policy for [COMPANY NAME]. As a legal advisor, explain the types of data collected, how it is used, stored, and shared, along with user rights. Structure the outline with sections like introduction, data collection, data use, user rights, and contact information. The tone should be formal, clear, and compliant with regulations."
+    },
+    {
+      "id": "terms_of_service",
+      "name": "Terms of service",
+      "description": "A legal agreement outlining the terms of use for a product or service.",
+      "category": "Legal",
+      "prompt": "You are writing terms of service for [COMPANY NAME]. As a legal expert, cover the rules, restrictions, and responsibilities that users must agree to in order to use the product or service. Include sections on user obligations, acceptable use, liability, and dispute resolution. The tone should be formal, legal, and comprehensive."
+    },
+    {
+      "id": "security_policy",
+      "name": "Security policy",
+      "description": "A policy that outlines how a company secures its systems and data.",
+      "category": "Legal",
+      "prompt": "You are drafting a security policy for [COMPANY NAME]. As a security specialist, outline the company’s approach to data security, incident response, and compliance with regulations. Include sections like introduction, security protocols, access control, and data protection. The tone should be formal, clear, and technical."
+    },
+    {
+      "id": "grant_proposal",
+      "name": "Grant proposal",
+      "description": "A formal proposal requesting funding for a project or initiative.",
+      "category": "Academic",
+      "prompt": "You are writing a grant proposal to request funding for [PROJECT NAME]. As a researcher or project leader, explain the project goals, methods, expected outcomes, and budget requirements. Structure the outline with an introduction, project overview, methodology, budget, and conclusion. The tone should be persuasive, formal, and focused on impact."
+    },
+    {
+      "id": "syllabus",
+      "name": "Syllabus",
+      "description": "An outline of topics and expectations for a course.",
+      "category": "Academic",
+      "prompt": "You are writing a syllabus for a course on [COURSE TOPIC]. As the course instructor, include sections on course objectives, weekly topics, grading criteria, and required readings. Structure the outline with an introduction, course schedule, assessment methods, and policies. The tone should be professional, clear, and educational."
+    },
+    {
+      "id": "conference_talk",
+      "name": "Conference talk",
+      "description": "A speech or presentation given at an academic or professional conference.",
+      "category": "Academic",
+      "prompt": "You are preparing a conference talk on [TOPIC] for [CONFERENCE NAME]. As a subject matter expert, outline the key points, research findings, and implications of your work. Include an introduction, main points, and a conclusion. The tone should be informative, engaging, and professional."
+    },
+    {
+      "id": "news_article",
+      "name": "News article",
+      "description": "A report covering a recent event or development.",
+      "category": "Journalism",
+      "prompt": "You are writing a news article about [EVENT OR TOPIC]. As a journalist, provide an accurate, balanced, and timely account of the event, covering the who, what, when, where, why, and how. Structure the outline with a headline, lead paragraph, and body with supporting details. The tone should be neutral, factual, and clear."
+    },
+    {
+      "id": "novel",
+      "name": "Novel",
+      "description": "A long-form fictional narrative.",
+      "category": "Creative/Entertainment",
+      "prompt": "You are writing a novel about [STORY CONCEPT]. As a fiction writer, develop a plot outline that includes key characters, main conflicts, and major plot points. Include sections for introduction, rising action, climax, and resolution. The tone and style should be tailored to the genre, whether it’s literary, thriller, fantasy, etc."
+    },
+    {
+      "id": "poem",
+      "name": "Poem",
+      "description": "A piece of writing in verse that expresses emotions or ideas.",
+      "category": "Creative/Entertainment",
+      "prompt": "You are writing a poem about [THEME]. As a poet, express emotions or concepts using figurative language, rhyme, and rhythm. Structure the outline with a theme, main images or metaphors, and the desired emotional impact. The tone should reflect the mood of the poem, whether it's romantic, melancholic, or hopeful."
+    },
+    {
+      "id": "song_lyrics",
+      "name": "Song lyrics",
+      "description": "A set of lyrics for a song, telling a story or expressing a feeling.",
+      "category": "Creative/Entertainment",
+      "prompt": "You are writing song lyrics about [THEME OR EMOTION]. As a songwriter, focus on creating a chorus, verses, and a bridge, using imagery and rhyme to convey emotions or tell a story. Include sections for the intro, verses, chorus, and bridge. The tone should match the genre, whether it's pop, rock, ballad, etc."
+    },
+    {
+      "id": "screenplay",
+      "name": "Screenplay",
+      "description": "A script for a film or TV show, including dialogue and stage directions.",
+      "category": "Creative/Entertainment",
+      "prompt": "You are writing a screenplay for a film about [STORY CONCEPT]. As a screenwriter, outline the plot, key scenes, and character arcs. Include sections for opening scene, rising action, climax, and resolution. The tone should reflect the genre, whether it's drama, comedy, thriller, etc."
+    },
+    {
+      "id": "theater_script",
+      "name": "Theater script",
+      "description": "A script for a stage play with dialogue and stage directions.",
+      "category": "Creative/Entertainment",
+      "prompt": "You are writing a theater script about [STORY CONCEPT]. As a playwright, create a detailed outline of scenes, character interactions, and stage directions. Include an introduction, major plot points, and conclusion. The tone should reflect the genre, whether it's tragedy, comedy, or drama."
+    }
+]
+  

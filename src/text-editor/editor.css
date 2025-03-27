@@ -1,0 +1,83 @@
+/*
+  Handle bubble menu visibility via custom popperOption modifier
+*/
+.custom-bubble-menu {
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.custom-bubble-menu.bubble-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/*
+  MenuSuggestion selection placeholder decorator to mimic text selection when the editor loses it
+*/
+.active-suggestion {
+  background-color: rgba(35, 131, 226, 0.28); /* Highlight color */
+}
+
+/*
+  Manage scrolling when suggestions are open
+*/
+.text-editor-scrollable-container {
+  overflow-y: scroll; /* Default scrolling behavior */
+  height: calc(100vh - 100px);
+  width: 99.7%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.no-scroll {
+  overflow-y: hidden; /* Disable scrolling */
+  padding-right: calc(20px + var(--scrollbar-width));
+}
+
+/* Basic editor styles */
+/* Placeholder (at the top) */
+.ProseMirror p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: rgb(167, 167, 167);
+  pointer-events: none;
+  height: 0;
+}
+
+/* Placeholder (on every new line) */
+.ProseMirror p.is-empty::before {
+  color: rgb(167, 167, 167);
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+.ProseMirror h1.is-empty::before {
+  color: rgb(167, 167, 167);
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+.ProseMirror h2.is-empty::before {
+  color: rgb(167, 167, 167);
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+.ProseMirror h3.is-empty::before {
+  color: rgb(167, 167, 167);
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+mark {
+  border-radius: 0.25em;
+  box-decoration-break: clone;
+  padding: 0.125em 0;
+}
