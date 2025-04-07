@@ -1,10 +1,10 @@
 <div align="center">
-    <a href="https://manzoni.app" target="_blank"><img alt="Manzoni Logo" src="https://avatars.githubusercontent.com/u/204217907" width="60px" style="border-radius: 12px;" /></a>
+    <img alt="Manzoni Logo" src="https://avatars.githubusercontent.com/u/204217907" width="60" align="center" border-radius="12"/>
     <h1>Manzoni</h1>
     <p>Write using large language models (LLMs) privately on your laptop</p>
     <p>No API calls or GPUs required. <a href="https://manzoni.app" target="_blank">Download the app</a> and get started.</p>
     <div>
-        <a href="https://discord.gg/CXVgKFv5" target="_blank">Discord</a> • <a href="https://sibforms.com/serve/MUIFAOFBJzHRATSzv9THHuRI3eXZOT9WhpqQIdmFb5PiMfgXjcDOD7ccKMVhZKTILmCj3gt3SHubSTPbJrrdApbTtxtsehI1RfgeNhJfz2-Ro4wukvZS_zCzYALbtxvhdCMdBF3kZQU3Zwj58hZBYbyDam1F_9wuikAGHqqia-6UEnLt8LEXCNWx-Isk9720zsJTi5lUMyL0JaVA" target="_blank">Subscribe to the newsletter</a>
+        <a href="https://discord.gg/byFNu9Xa" target="_blank">Discord</a> • <a href="https://sibforms.com/serve/MUIFAOFBJzHRATSzv9THHuRI3eXZOT9WhpqQIdmFb5PiMfgXjcDOD7ccKMVhZKTILmCj3gt3SHubSTPbJrrdApbTtxtsehI1RfgeNhJfz2-Ro4wukvZS_zCzYALbtxvhdCMdBF3kZQU3Zwj58hZBYbyDam1F_9wuikAGHqqia-6UEnLt8LEXCNWx-Isk9720zsJTi5lUMyL0JaVA" target="_blank">Subscribe to the newsletter</a>
     </div>
 </div>
 
